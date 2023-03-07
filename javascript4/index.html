@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 ejercicios</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <section>
+        <form id="form1">
+            <button type="submit" onclick="pide(event)">
+                Empezar
+            </button>
+          <div>
+            <table id="tabla">
+                <tr>
+              
+                  <th>Persona 1</th>
+              
+                  <th>Persona 2</th>
+              
+                  <th>Persona 3</th>
+              
+                </tr>           
+                <tr>
+              
+                  <td id="espacioNombre1">nombre</td>
+              
+                  <td id="espacioNombre2">nombre</td>
+              
+                  <td id="espacioNombre3">nombre</td>
+              
+                </tr>
+                <tr>
+              
+                  <td id="espacioEdad1" >edad</td>
+              
+                  <td  id="espacioEdad2" >edad</td>
+              
+                  <td id="espacioEdad3" >edad</td>
+              
+                </tr>
+              </table>
+          </div> 
+            <button type="submit" onclick="mayor(event)">
+                QUIEN ES MAYOR?
+            </button>
+            <h4 id="resultado"></h4>
+        </form>
+
+        <form id="form2" onsubmit="generar(event)">
+            <button type="submit">
+                Generar
+            </button>
+                <div id="inputs">
+           <input id="n1" type="number">
+           <input id="n2" type="number">
+           <input id="n3" type="number">
+                </div>
+        </form>
+    </section>
+
+   <script src="jav.js"></script>
+</body>
+</html>
